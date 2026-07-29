@@ -1,22 +1,82 @@
 aid: kailera-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kailera-therapeutics.png
 name: Kailera Therapeutics
-description: Kailera Therapeutics is a company surfaced as a portfolio company of a16z and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Kailera Therapeutics is a clinical-stage biopharmaceutical company focused on
+  the next generation of obesity and cardiometabolic care through a diversified
+  pipeline of GLP-1 based therapies. Founded in 2024 and headquartered in
+  Waltham, Massachusetts, its lead candidate ribupatide (KAI-9531) is a
+  once-weekly injectable GLP-1/GIP receptor dual agonist in a global Phase 3
+  program, alongside oral small-molecule GLP-1 candidates and tri-agonist
+  programs licensed in part from Jiangsu Hengrui Pharmaceuticals. Kailera has
+  raised a $400M Series A and a $600M Series B led by Bain Capital, and priced
+  its IPO in April 2026 (NASDAQ: KLRA). This is a corporate/portfolio company
+  profile in the API Evangelist network; Kailera publishes no public developer
+  API surface.
 url: https://raw.githubusercontent.com/api-evangelist/kailera-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
-x-tier: stub
-x-tier-reason: portfolio-lead
+- Bain Capital
+- Atlas Venture
+- RTW Investments
+x-tier: profile
+x-tier-reason: no-public-api
+x-ticker: KLRA
+x-headquarters: Waltham, Massachusetts, United States
+x-founded: '2024'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Biopharmaceutical
+- Biotechnology
+- Pharmaceuticals
+- Obesity
+- Metabolic Health
+- GLP-1
+- Clinical Stage
+- Healthcare
 apis: []
+common:
+- type: DomainSecurity
+  url: security/kailera-therapeutics-domain-security.yml
+- type: Website
+  url: https://www.kailera.com/
+- type: About
+  url: https://www.kailera.com/about-us/
+- type: Blog
+  url: https://investors.kailera.com/news-events/news-releases
+- type: Support
+  url: https://www.kailera.com/contact-us/
+- type: PrivacyPolicy
+  url: https://www.kailera.com/kailera-privacy-policy/
+- type: TermsOfService
+  url: https://www.kailera.com/terms-of-use/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/kaileratx/
+- type: Twitter
+  url: https://x.com/kaileratx
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
