@@ -37,7 +37,7 @@ x-tier-reason: no-public-api
 x-ticker: KLRA
 x-headquarters: Waltham, Massachusetts, United States
 x-founded: '2024'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
